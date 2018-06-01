@@ -1,33 +1,33 @@
 $(function()
 {
   $("#btn-toggle").click(function(){
-    $("#track-list").toggle();
-    buttonSwitch("#btn-toggle","#track-list");
+    $("#track-list").slideToggle();
+    buttonSwitch("#btn-toggle");
   });
 
   $("#btn-toggle-c").click(function(){
-    $("#description-c").toggle();
-    buttonSwitch("#btn-toggle-c","#description-c");
+    $("#description-c").slideToggle();
+    buttonSwitch("#btn-toggle-c");
   });
 
   $("#btn-toggle-java").click(function(){
-    $("#description-java").toggle();
-    buttonSwitch("#btn-toggle-java","#description-java");
+    $("#description-java").slideToggle();
+    buttonSwitch("#btn-toggle-java");
   });
 
   $("#btn-toggle-php").click(function(){
-    $("#description-php").toggle();
-    buttonSwitch("#btn-toggle-php","#description-php");
+    $("#description-php").slideToggle();
+    buttonSwitch("#btn-toggle-php");
   });
 
   $("#btn-toggle-ruby").click(function(){
-    $("#description-ruby").toggle();
-    buttonSwitch("#btn-toggle-ruby","#description-ruby");
+    $("#description-ruby").slideToggle();
+    buttonSwitch("#btn-toggle-ruby");
   });
 
   $("#btn-toggle-survey").click(function(){
-    $("#form-one").toggle();
-    buttonSwitch("#btn-toggle-survey","#form-one");
+    $("#form-one").fadeToggle();
+    buttonSwitch("#btn-toggle-survey");
   });
 
 
@@ -178,10 +178,11 @@ function revealTrack(which)
   }
 }
 
-function buttonSwitch(buttonName,switchName)
+function buttonSwitch(buttonName)
 {
-  var visible = $(switchName).is(":visible");
-  if(visible)
+  var isOn = $(buttonName).hasClass("btn-on");
+
+  if(!isOn)
   {
     $(buttonName).removeClass("btn-off");
     $(buttonName).addClass("btn-on");
