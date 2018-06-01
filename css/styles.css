@@ -16,3 +16,8 @@ body  {
 .initial-hide {
   display: none;
 }
+
+.background-blue {
+  background-color: lightblue;
+  padding-top: 18px;
+}
