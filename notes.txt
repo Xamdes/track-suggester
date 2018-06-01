@@ -1,0 +1,38 @@
+
+What is you ideal workplace?
+0 = Unsure
+PHP
+1 = Startup
+Ruby
+2 = Established Businesses
+C#
+3 = Enterprise Company
+Java
+
+What type of projects interest you?
+0 = Unsure
+Ignore
+1 = Internal Software
+C#
+2 = Android
+Java
+3 = Servers
+PHP
+4 = Websites
+Ruby
+
+What sounds good to you?
+0 = Unsure
+1 = Web Developer
+2 = Mobile App Developer
+3 = Software Developer
+
+What would you prefer for your programming language?
+0 = Unsure
+1 = Simplistic
+2 = Complex
+
+Would you prefer a specialized or more jack of all trades language?
+0 = Unsure
+1 = Specialize
+2 = Jack of All Trades
