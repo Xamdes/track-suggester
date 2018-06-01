@@ -26,5 +26,8 @@ $(function()
 
   var businessType = parseInt($("input:radio[name=business-type]:checked").val());
   var interestType = parseInt($("input:radio[name=interest-type]:checked").val());
+  var developerType = parseInt($("input:radio[name=developer-type]:checked").val());
+  var languageType = parseInt($("input:radio[name=language-type]:checked").val());
+  var interestType = parseInt($("input:radio[name=special-type]:checked").val());
 
 });
