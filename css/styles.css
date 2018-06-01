@@ -1,4 +1,10 @@
 body  {
   background-color: lightcyan;
   font-size: 1.5em;
+  margin: 6px;
+  padding: 6px;
+}
+
+.center-text  {
+  text-align: center;
 }
