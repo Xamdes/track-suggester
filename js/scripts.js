@@ -121,9 +121,33 @@ $(function()
       cSharp++;
     }
 
+    var isJava = ((java>=php)&&(java>=ruby)&&(java>=cSharp));
+    var isPhp = ((php>=java)&&(php>=ruby)&&(php>=cSharp));
+    var isRuby = ((ruby>=php)&&(ruby>=java)&&(ruby>=cSharp));
+    var isCSharp = ((cSharp>=php)&&(cSharp>=ruby)&&(cSharp>=java));
+    //Incase nothing is true take modulo of total using three to make a selection
+    var elseCase = ((java+cSharp+ruby+php)%3);
 
-
-
+    if(isCSharp)
+    {
+      revealTrack(2);
+    }
+    else if(isRuby)
+    {
+      revealTrack(0);
+    }
+    else if(isPhp)
+    {
+      revealTrack(0);
+    }
+    else if(isJava)
+    {
+      revealTrack(1);
+    }
+    else
+    {
+      revealTrack(elseCase);
+    }
     event.preventDefault();
   });
 
