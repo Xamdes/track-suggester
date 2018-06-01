@@ -35,6 +35,93 @@ $(function()
 
     var total = businessType+interestType+developerType+languageType+specialType;
 
+    var php = 0;
+    var ruby = 0;
+    var java = 0;
+    var cSharp = 0;
+
+    //Increment  based of user slection of Question 1
+    var comparison = businessType;
+    if(comparison === 0)
+    {
+      php++;
+    }
+    else if (comparison === 1) {
+      ruby++;
+    }
+    else if (comparison === 2) {
+      cSharp++;
+    }
+    else if (comparison === 3) {
+      java++;
+    }
+
+    //Increment  based of user slection of Question 2
+    var comparison = interestType;
+    if(comparison === 0)
+    {
+      //Nothing
+    }
+    else if (comparison === 1) {
+      cSharp++;
+    }
+    else if (comparison === 2) {
+      java++;
+    }
+    else if (comparison === 3) {
+      php++;
+    }
+    else if (comparison === 4) {
+      ruby++;
+    }
+
+    //Increment  based of user slection of Question 3
+    var comparison = developerType;
+    if(comparison === 0)
+    {
+      //Nothing
+    }
+    else if (comparison === 1) {
+      php++;
+      ruby++;
+    }
+    else if (comparison === 2) {
+      java++;
+      cSharp++;
+    }
+    else if (comparison === 3) {
+      cSharp++;
+    }
+    //Increment  based of user slection of Question 4
+    var comparison = languageType;
+    if(comparison === 0)
+    {
+      //Nothing
+    }
+    else if (comparison === 1) {
+      ruby++;
+    }
+    else if (comparison === 2) {
+      java++;
+      cSharp++;
+      php++;
+    }
+    //Increment  based of user slection of Question 5
+    var comparison = specialType;
+    if(comparison === 0)
+    {
+      //Nothing
+    }
+    else if (comparison === 1) {
+      ruby++;
+      php++;
+    }
+    else if (comparison === 2) {
+      java++;
+      cSharp++;
+    }
+
+
 
 
     event.preventDefault();
