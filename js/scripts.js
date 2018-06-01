@@ -2,27 +2,32 @@ $(function()
 {
   $("#btn-toggle").click(function(){
     $("#track-list").toggle();
+    buttonSwitch("#btn-toggle","#track-list");
   });
 
   $("#btn-toggle-c").click(function(){
     $("#description-c").toggle();
+    buttonSwitch("#btn-toggle-c","#description-c");
   });
 
   $("#btn-toggle-java").click(function(){
     $("#description-java").toggle();
+    buttonSwitch("#btn-toggle-java","#description-java");
   });
 
   $("#btn-toggle-php").click(function(){
     $("#description-php").toggle();
+    buttonSwitch("#btn-toggle-php","#description-php");
   });
 
   $("#btn-toggle-ruby").click(function(){
     $("#description-ruby").toggle();
+    buttonSwitch("#btn-toggle-ruby","#description-ruby");
   });
 
   $("#btn-toggle-survey").click(function(){
     $("#form-one").toggle();
-    //event.preventDefault();
+    buttonSwitch("#btn-toggle-survey","#form-one");
   });
 
 
@@ -147,6 +152,7 @@ $(function()
     {
       revealTrack(elseCase);
     }
+    buttonSwitch("#btn-toggle-survey","#form-one");
     event.preventDefault();
   });
 
@@ -169,5 +175,20 @@ function revealTrack(which)
   //Reaveal C#/.NET
   else if (which === 2) {
     $("#track-c-sharp-dot-net").show();
+  }
+}
+
+function buttonSwitch(buttonName,switchName)
+{
+  var visible = $(switchName).is(":visible");
+  if(visible)
+  {
+    $(buttonName).removeClass("btn-off");
+    $(buttonName).addClass("btn-on");
+  }
+  else
+  {
+    $(buttonName).removeClass("btn-on");
+    $(buttonName).addClass("btn-off");
   }
 }

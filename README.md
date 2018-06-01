@@ -14,11 +14,16 @@ Track Suggester
 
 ## About
 
-This website will help the user decide which Epicodus track they would like to take based on how they answer several questions.
+This website will help the user decide which Episode's tracks they would like to take based on how they answer 5 questions. They will then be recommended which of the three tracks they should choose because of their choices.
+
+**Tracks Available Are**  
+1. Ruby/Rails  
+2. CSS/React  
+3. C#/.NET  
 
 ## Github Page located at
 
-
+https://xamdes.github.io/track-suggester/
 
 ## Technology Used
 

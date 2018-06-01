@@ -3,6 +3,7 @@ body  {
   font-size: 1.5em;
   margin: 6px;
   padding: 6px;
+  color: black;
 }
 
 .center-text  {
@@ -32,4 +33,14 @@ body  {
 
 .pad-panel  {
   padding: 6px;
+}
+
+.btn-on {
+  background-color: PaleGreen;
+  font-size: 1em;
+}
+
+.btn-off {
+  background-color: Aqua;
+  font-size: 1em;
 }
