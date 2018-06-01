@@ -35,6 +35,8 @@ $(function()
 
     var total = businessType+interestType+developerType+languageType+specialType;
 
+
+
     event.preventDefault();
   });
 
