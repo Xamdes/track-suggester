@@ -14,6 +14,8 @@ Track Suggester
 
 ## About
 
+This website will help the user decide which Epicodus track they would like to take based on how they answer several questions.
+
 ## Github Page located at
 
 
