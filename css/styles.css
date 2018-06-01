@@ -8,3 +8,7 @@ body  {
 .center-text  {
   text-align: center;
 }
+
+.initial-hide {
+  display: none;
+}
