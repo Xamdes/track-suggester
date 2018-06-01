@@ -19,5 +19,17 @@ body  {
 
 .background-blue {
   background-color: lightblue;
+}
+
+.pad-top {
   padding-top: 18px;
+}
+
+.pad-row {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.pad-panel  {
+  padding: 6px;
 }
