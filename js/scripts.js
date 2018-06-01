@@ -24,4 +24,7 @@ $(function()
     $("#form-one").toggle();
   });
 
+  var businessType = parseInt($("input:radio[name=business-type]:checked").val());
+  var interestType = parseInt($("input:radio[name=interest-type]:checked").val());
+
 });
