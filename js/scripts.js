@@ -41,3 +41,21 @@ $(function()
   });
 
 });
+
+
+function revealTrack(which)
+{
+  //Reaveal Ruby/Rails
+  if(which === 0)
+  {
+    $("#track-ruby-rails").show();
+  }
+  //Reaveal CSS/React
+  else if (which === 1) {
+    $("#track-css-react").show();
+  }
+  //Reaveal C#/.NET
+  else if (which === 2) {
+    $("#track-c-sharp-dot-net").show();
+  }
+}

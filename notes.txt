@@ -46,3 +46,8 @@ Would you prefer a specialized or more jack of all trades language?
 PHP, Ruby
 2 = Jack of All Trades
 C#, Java
+
+
+Ruby/rails
+CSS/react
+C#/.NET
