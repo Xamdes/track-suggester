@@ -32,6 +32,8 @@ HTML, CSS, Javascript, Bootstrap, jQuery
 ## Installation
 Clone from:
 https://github.com/Xamdes/track-suggester.git
+Open index.html in your browser
+**(Tested using Chrome as the browser)**
 
 ## Requirements
 
