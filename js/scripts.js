@@ -20,4 +20,8 @@ $(function()
     $("#description-ruby").toggle();
   });
 
+  $("#btn-toggle-survey").click(function(){
+    $("#form-one").toggle();
+  });
+
 });
