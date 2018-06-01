@@ -23,16 +23,26 @@ Ruby
 
 What sounds good to you?
 0 = Unsure
+Ignore
 1 = Web Developer
+PHP, Ruby
 2 = Mobile App Developer
+Java, C#
 3 = Software Developer
+C#
 
 What would you prefer for your programming language?
 0 = Unsure
+Ignore
 1 = Simplistic
+Ruby
 2 = Complex
+PHP, Java, C#
+
 
 Would you prefer a specialized or more jack of all trades language?
 0 = Unsure
 1 = Specialize
+PHP, Ruby
 2 = Jack of All Trades
+C#, Java

@@ -34,7 +34,8 @@ $(function()
     var specialType = parseInt($("input:radio[name=special-type]:checked").val());
 
     var total = businessType+interestType+developerType+languageType+specialType;
-    alert(total);
+
+    event.preventDefault();
   });
 
 });
