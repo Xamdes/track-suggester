@@ -22,19 +22,18 @@ $(function()
 
   $("#btn-toggle-survey").click(function(){
     $("#form-one").toggle();
+    //event.preventDefault();
   });
 
 
 
-  $("#btn-submit").click(function(){
+  $("#btn-submit").click(function(event){
     var businessType = parseInt($("input:radio[name=business-type]:checked").val());
     var interestType = parseInt($("input:radio[name=interest-type]:checked").val());
     var developerType = parseInt($("input:radio[name=developer-type]:checked").val());
     var languageType = parseInt($("input:radio[name=language-type]:checked").val());
     var specialType = parseInt($("input:radio[name=special-type]:checked").val());
-
     var total = businessType+interestType+developerType+languageType+specialType;
-
     var php = 0;
     var ruby = 0;
     var java = 0;
@@ -156,6 +155,8 @@ $(function()
 
 function revealTrack(which)
 {
+  $(".track-hide").hide();
+  $("#form-one").hide();
   //Reaveal Ruby/Rails
   if(which === 0)
   {
