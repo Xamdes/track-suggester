@@ -42,12 +42,13 @@ PHP, Java, C#
 
 Would you prefer a specialized or more jack of all trades language?
 0 = Unsure
+Ignore
 1 = Specialize
 PHP, Ruby
 2 = Jack of All Trades
 C#, Java
 
 
-Ruby/rails
-CSS/react
+Ruby/Rails
+CSS/React
 C#/.NET
